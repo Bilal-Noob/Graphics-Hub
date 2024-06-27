@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.header {
+  height: 650px;
+  background-color: #d9e4f5;
+background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+}
+
+h2 {
+  font-family: system-ui;
+    color: indigo;
+    font-size: 1.8rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 45px;
+}
+
+.items {
+  list-style: none;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-section {
+  height: 590px;
+  width: 91.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 3em;
+}
+
+.subtitle-paragraph-btn-part {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+  color: black;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.btn-ordernow {
+    background-color: indigo;
+    padding: 11px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 145px;
+    border: 2px dashed indigo;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    margin-top: 18px;
+}
+
+.btn-ordernow span:last-child {
+    display: none;
+}
+
+.btn-ordernow:hover {
+    transition: .4s;
+    border: 2px dashed indigo;
+    background-color: #fff;
+    color: indigo;
+}
+
+.main-image img{
+  width: 450px;
+}
