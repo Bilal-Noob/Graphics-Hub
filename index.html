@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="edit-image.png" type="image/x-icon">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="shortcut icon" href="/img/edit-image.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
@@ -13,34 +15,47 @@
     <title>Graphics Hub</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="navbar">
-        <span class="logo">
-          <h2>Graphics Hub</h2>
-        </span>
-        <ul>
-          <li class="items"><a href="index.html">Home</a></li>
-          <li class="items"><a href="#">About us</a></li>
-          <li class="items"><a href="hadith.html">Image Editor</a></li>
-          <li class="items"><a href="hadith.html">Paint App</a></li>
-          <li class="items"><a href="sahaba.html">Image Compressor</a></li>
-        </ul>
-      </nav>
-      <section class="first-section">
-        <div class="subtitle-paragraph-btn-part">
-          <span>
-            <h4>Edit, Create, </h4>
-            <h4>Compress, Perfect !</h4>
+
+      <header class="header">
+        <div class="main-container">
+
+        <nav class="navbar">
+          <span class="logo">
+            <h2>Graphics Hub</h2>
           </span>
-          <p>
-            Our website offers a suite of tools: a paint app for creative drawing, an image editor for photo enhancement, and a compressor for optimizing image storage. Enjoy seamless image editing with our all-in-one platform.
-          </p>
-          <button class="btn-ordernow">Login in</button>
-        </div>
-        <div class="main-image">
-          <img src="main-image.png" alt="" />
-        </div>
-      </section>
-    </header>
+          <ul>
+            <li class="items"><a href="index.html">Home</a></li>
+            <li class="items"><a href="#">About us</a></li>
+            <li class="items"><a href="hadith.html">Image Editor</a></li>
+            <li class="items"><a href="hadith.html">Paint App</a></li>
+            <li class="items"><a href="sahaba.html">Image Compressor</a></li>
+          </ul>
+          <label class="container">
+            <input type="checkbox">
+            <div class="checkmark">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+          
+        </nav>
+        <section class="first-section">
+          <div class="subtitle-paragraph-btn-part">
+            <span>
+              <h4>Edit, Create, </h4>
+              <h4>Compress, Perfect !</h4>
+            </span>
+            <p>
+              Our website offers a suite of tools: a paint app for creative drawing, an image editor for photo enhancement, and a compressor for optimizing image storage. Enjoy seamless image editing with our all-in-one platform.
+            </p>
+            <button class="btn-ordernow">Login in</button>
+          </div>
+          <div class="main-image">
+            <img src="/img/main-image.png" alt="" />
+          </div>
+        </section>
+      </div>
+      </header>
   </body>
 </html>
