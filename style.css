@@ -4,15 +4,26 @@
     font-family: "Alegreya Sans SC", sans-serif;
 }
 
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
 body {
     background-color: whitesmoke;
 }
 
+.main-container{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
 
 .header {
   height: 650px;
   background-color: #d9e4f5;
-background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 
 .navbar {
@@ -20,7 +31,7 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 5rem;
+  padding: 0.3rem 0em;
 }
 
 h2 {
@@ -45,11 +56,9 @@ h2 {
 
 .first-section {
   height: 590px;
-  width: 91.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0em 3em;
 }
 
 .subtitle-paragraph-btn-part {
@@ -95,5 +104,5 @@ p {
 }
 
 .main-image img{
-  width: 450px;
+  width: 400px;
 }
